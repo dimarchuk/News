@@ -1,0 +1,11 @@
+.left__advertise {
+    position: absolute;
+    left: 10px;
+    top: 70px;
+}
+
+.right__advertise {
+    position: absolute;
+    right: 10px;
+    top: 70px;
+}

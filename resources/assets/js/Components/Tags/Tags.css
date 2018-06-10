@@ -1,0 +1,31 @@
+.tags {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.tags__name {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.tags__list-article {
+    margin-top: 25px;
+}
+
+.tags__title {
+    color: #303030a3;
+    font-size: 16px;
+}
+
+.tag {
+    margin-bottom: 10px;
+}
+
+.tags__name,
+.tags__list-article {
+    max-width: 500px;
+    width: 100%;
+}

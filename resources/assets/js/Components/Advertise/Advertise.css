@@ -1,0 +1,51 @@
+.advertise {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    margin-top: 25px;
+    width: 150px;
+
+}
+
+.advertise__title,
+.advertise__subtitle,
+.advertise__price {
+    margin: 5px;
+    text-align: center;
+}
+
+.advertise__title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.advertise__price {
+    color: forestgreen;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.advertise__sale {
+    text-align: center;
+    opacity: 0;
+    height: 0;
+    transition: all .3s;
+}
+
+.advertise__sale--active {
+    opacity: 1;
+    height: 90px;
+}
+
+.price {
+    transition: all .3s;
+}
+
+.advertise:hover .advertise__price .price {
+    color: #ff5238;
+    font-size: 20px;
+}

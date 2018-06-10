@@ -1,0 +1,22 @@
+.slide {
+
+}
+
+.slide--hide {
+    display: none;
+}
+
+.slide__title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.slide__category {
+    color: #303030a3;
+}
+
+.picture {
+    position: relative;
+    width: 100%;
+}

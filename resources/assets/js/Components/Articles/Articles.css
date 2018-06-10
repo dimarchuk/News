@@ -1,0 +1,11 @@
+.category {
+    margin: 10px 20px;
+}
+
+.category__title {
+    align-items: center;
+    display: flex;
+    background-color: #be6dff;
+    height: 30px;
+    width: 100%;
+}

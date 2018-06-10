@@ -1,0 +1,17 @@
+.slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.slider__content {
+    max-width: 500px;
+    width: 70%;
+}
+
+.slider__btn {
+    background-color: #f1f1f1;
+    height: 20px;
+    margin: 20px;
+}

@@ -1,0 +1,29 @@
+.user {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+}
+
+.user__title,
+.user__subtitle {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.user__subtitle {
+    font-size: 16px;
+}
+
+.user__title,
+.user__subtitle,
+.user__name,
+.user__comments {
+    max-width: 500px;
+    width: 100%
+}
+
+.comment {
+    margin-bottom: 15px;
+}

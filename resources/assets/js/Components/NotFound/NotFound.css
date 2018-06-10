@@ -1,0 +1,11 @@
+.not-found {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.not-found__title {
+    font-size: 18px;
+}

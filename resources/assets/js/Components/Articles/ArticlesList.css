@@ -1,0 +1,19 @@
+
+
+.articles-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.article__title .article {
+    color: #303030a3;
+    font-size: 14px;
+}
+
+.articles-list__pagination,
+.article__title {
+    max-width: 500px;
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+.newsletter {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #000;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 999;
+    height: 300px;
+    position: fixed;
+    width: 500px;
+}
+
+.newsletter--hide {
+    display: none;
+}
+
+.newsletter__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.newsletter__title {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.input-element {
+    height: 40px;
+    width: 400px;
+}

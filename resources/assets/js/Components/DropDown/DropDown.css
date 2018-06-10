@@ -1,0 +1,39 @@
+.drop-down {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    position: relative;
+}
+
+.drop-down:hover {
+    background-color: #f1f1f1;
+}
+
+.drop-down__list {
+    background-color: #f1f1f1;
+    display: none;
+    top: 22px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+
+.drop-down:hover .drop-down__list {
+    display: block;
+}
+
+.level-1,
+.level-2 {
+    padding: 5px 15px;
+}
+
+.level-2 {
+    display: none;
+    padding-left: 30px;
+}
+
+.level-1:hover .level-2 {
+    display: block;
+}

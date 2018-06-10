@@ -1,0 +1,1 @@
+export const apiUrl = 'http://8434-5a79ee928fcb5.st.php-academy.org/api/';

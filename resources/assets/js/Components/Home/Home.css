@@ -1,0 +1,38 @@
+.home {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+}
+
+.home__title {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.home__slider {
+    margin-top: 130px;
+}
+
+.home__top-users,
+.home__top-themes {
+    margin-top: 90px;
+}
+
+.home__category,
+.home__slider,
+.home__top-users,
+.home__top-themes{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.top-user,
+.top-theme {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
